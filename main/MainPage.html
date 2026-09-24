@@ -1,49 +1,262 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BTU Lab</title>
+  <meta charset="UTF-8">
+  <title>BTU Lab - Home</title>
 </head>
-<body style="margin: 0;">
+
+<body>
 
 <header style="display: flex; align-items: center; justify-content: space-between; padding: 20px; width: 100%; position: sticky; top: 0; box-sizing: border-box; background: #fff;">
 
-  <details style="position: relative;">
-    <summary style="list-style: none; cursor: pointer; display: flex; flex-direction: column; gap: 6px;">
-      <span style="display: block; width: 30px; height: 4px; background: #1a1a1a; border-radius: 2px;"></span>
-      <span style="display: block; width: 30px; height: 4px; background: #1a1a1a; border-radius: 2px;"></span>
-      <span style="display: block; width: 30px; height: 4px; background: #1a1a1a; border-radius: 2px;"></span>
-    </summary>
-    <nav style="position: absolute; left: 0; top: 100%; background: #fff;">
-      <a href="https://en.wikipedia.org/wiki/Home">Home</a><br>
-      <a href="https://en.wikipedia.org/wiki/Tool">Tools</a><br>
-      <a href="https://en.wikipedia.org/wiki/Woodworking">Wood Shop</a><br>
-      <a href="https://en.wikipedia.org/wiki/Textile">Sewing & Textiles</a><br>
-      <a href="https://en.wikipedia.org/wiki/Electronics">Electronics</a><br>
-      <a href="https://en.wikipedia.org/wiki/Laser">Lasers</a><br>
-      <a href="https://en.wikipedia.org/wiki/3D_printing">3D Printers</a><br>
-      <a href="https://en.wikipedia.org/wiki/Numerical_control">CNC</a><br>
-      <a href="https://en.wikipedia.org/wiki/Staff_(organization)">BTU Staff</a><br>
-      <a href="https://en.wikipedia.org/wiki/Calendar">BTU Calendar</a><br>
-      <a href="https://en.wikipedia.org/wiki/Laboratory_safety">Lab Rules</a><br>
-      <a href="https://en.wikipedia.org/wiki/Workshop">Workshops</a><br>
-      <a href="https://en.wikipedia.org/wiki/Explosive">Help Us Blow Things Up</a><br>
-      <a href="https://en.wikipedia.org/wiki/Faculty_(university)">Faculty</a><br>
-    </nav>
-  </details>
+    <details style="position: relative;">
+      <summary aria-label="Menu" style="list-style: none; cursor: pointer; display: flex; flex-direction: column; gap: 6px;">
+        <span style="display: block; width: 30px; height: 4px; background: #1a1a1a; border-radius: 2px;"></span>
+        <span style="display: block; width: 30px; height: 4px; background: #1a1a1a; border-radius: 2px;"></span>
+        <span style="display: block; width: 30px; height: 4px; background: #1a1a1a; border-radius: 2px;"></span>
+      </summary>
+      <nav aria-label="Main" style="position: absolute; left: 0; top: 100%; background: #fff;">
+      <a href="index.html" aria-current="page">Home</a><br>
+      <a href="tools.html" >Tools</a><br>
+      <a href="wood-shop.html">Wood Shop</a><br>
+      <a href="sewing-textiles.html">Sewing &amp; Textiles</a><br>
+      <a href="electronics.html">Electronics</a><br>
+      <a href="lasers.html">Lasers</a><br>
+      <a href="3d-printers.html">3D Printers</a><br>
+      <a href="cnc.html">CNC</a><br>
+      <a href="staff.html">BTU Staff</a><br>
+      <a href="calendar.html">BTU Calendar</a><br>
+      <a href="rules.html">Lab Rules</a><br>
+      <a href="workshops.html">Workshops</a><br>
+      <a href="help-us-blow-things-up.html">Help Us Blow Things Up</a><br>
+      <a href="faculty.html">Faculty</a><br>
+      </nav>
+    </details>
 
-  <div style="font-weight: bold;">
-    THE BTU LAB
-  </div>
+    <div style="font-weight: bold;">
+      <a href="index.html" style="color: inherit; text-decoration: none;">THE BTU LAB</a>
+    </div>
 
-  <div>
-    <span>🔍</span>
-  </div>
+    <div>
+      <span aria-hidden="true">&#128269;</span>
+    </div>
 
-</header>
+  </header>
 
-<img src="BTU EXPLOSION.jpg" alt="BTU Lab exploding barrel" style="display: block; width: 100%; height: auto;">
+
+  <main>
+
+    <h1>BTU Lab: Blow. Things. Up.</h1>
+
+    <img src="images/btu-explosion.jpg"
+         alt="BTU Lab exploding barrel">
+
+
+    <aside>
+      <h2>On This Page</h2>
+
+      <ul>
+        <li><a href="#about">About the BTU Lab</a></li>
+        <li><a href="#getting-started">Getting Started</a></li>
+        <li><a href="#interests">I Am Interested In</a></li>
+        <li><a href="#director">BTU Lab Director</a></li>
+        <li><a href="#news">BTU Lab News</a></li>
+        <li><a href="#materials">Materials</a></li>
+      </ul>
+    </aside>
+
+
+    <section id="about">
+
+      <h2>About the BTU Lab</h2>
+
+      <p>
+        The ATLAS BTU Lab is an inclusive community makerspace.
+        It supports projects involving art, design, engineering,
+        and architecture.
+      </p>
+
+      <p>
+        The lab is open to CU Boulder students and provides access
+        and training for tools used in 3D printing, woodworking,
+        laser cutting, electronics, sewing, textiles, and more.
+      </p>
+
+      <p>
+        The lab's motto is: we make science fiction science fact,
+        and vice versa.
+      </p>
+
+      <h3>The Lab Wears Three Hats</h3>
+
+      <ul>
+        <li>A student hackerspace</li>
+        <li>A residency for ATLAS graduate student desks</li>
+        <li>At times, a classroom</li>
+      </ul>
+
+    </section>
+
+
+    <section id="getting-started">
+
+      <h2>Getting Started</h2>
+
+      <h3>Who?</h3>
+
+      <p>
+        Anyone can gain access to the BTU Lab. The goal is to
+        provide an inclusive environment for makers of all types.
+      </p>
+
+      <h3>How?</h3>
+
+      <p>
+        New members attend a 20-minute general orientation covering
+        community expectations, safety, and equipment.
+      </p>
+
+      <h3>When?</h3>
+
+      <p>
+        Orientations, workshops, and other events can be found on
+        the <a href="calendar.html">BTU Calendar</a>.
+      </p>
+
+      <h3>Where?</h3>
+
+      <address>
+        ATLAS Building, Room 113<br>
+        320 UCB<br>
+        1125 18th St<br>
+        Boulder, CO 80309
+      </address>
+
+    </section>
+
+
+    <section id="interests">
+
+      <h2>I Am Interested In...</h2>
+
+      <ul>
+        <li><a href="tools.html">General Tools</a></li>
+        <li><a href="wood-shop.html">Wood Shop</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="lasers.html">Laser Cutters</a></li>
+        <li><a href="3d-printers.html">3D Printers</a></li>
+        <li><a href="sewing-textiles.html">Sewing and Textiles</a></li>
+        <li><a href="cnc.html">CNC</a></li>
+      </ul>
+
+    </section>
+
+
+    <section id="director">
+
+      <h2>BTU Lab Director</h2>
+
+      <article>
+
+        <h3>Zack Weaver</h3>
+
+        <p>
+          Director, BTU Lab and Assistant Teaching Professor,
+          ATLAS Institute.
+        </p>
+
+        <p>
+          Zack helped establish the BTU Lab as an ATLAS PhD student
+          in 2014. He later worked for an electronics company he
+          co-founded and became co-director of BLDG 61 at the
+          Boulder Public Library.
+        </p>
+
+        <p>
+          Zack believes makerspaces can play an important role in
+          learning and community building.
+        </p>
+
+      </article>
+
+    </section>
+
+
+    <section id="news">
+
+      <h2>BTU Lab News</h2>
+
+      <article>
+
+        <h3>Maker Made 2022 at BLDG 61</h3>
+
+        <p>2022</p>
+
+        <p>
+          Six artists and technologists connected to the ATLAS
+          community contributed to Maker Made 2022.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <h3>Open Source Hardware: Makers Unite</h3>
+
+        <p>April 7, 2020</p>
+
+        <p>
+          Then-director Alicia Gibb spoke about open source hardware
+          on the Command Line Heroes podcast.
+        </p>
+
+      </article>
+
+
+      <article>
+
+        <h3>Danny Rankin Speaks at TEDx MileHigh</h3>
+
+        <p>October 24, 2019</p>
+
+        <p>
+          Danny Rankin spoke at the TEDx MileHigh Imagine event.
+        </p>
+
+      </article>
+
+    </section>
+
+
+    <aside id="materials">
+
+      <h2>Materials</h2>
+
+      <p>
+        The BTU Lab is not a free supply store. There are many ways
+        to barter, including displaying your work, tagging the lab
+        on social media, offering workshops, and volunteering.
+      </p>
+
+    </aside>
+
+  </main>
+
+
+  <footer>
+
+    <p>
+      This website is a class redesign project and is not the
+      official website of the BTU Lab, the ATLAS Institute,
+      or the University of Colorado Boulder.
+    </p>
+
+  </footer>
 
 </body>
+
 </html>
+```
