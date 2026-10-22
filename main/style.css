@@ -148,6 +148,16 @@ footer {
   font-size: 14px;
 }
 
+/* For clearing white space in the lists on desktop */
+
+@media (min-width: 600px) {
+  ul li{
+    display: block;
+    width: 25%;
+    float: left;
+  }
+}
+
 /* On small screens, photos go above the text instead of beside it */
 
 @media (max-width: 600px) {
@@ -156,6 +166,7 @@ footer {
     width: 100%;
     margin: 0 0 20px 0;
   }
+<<<<<<< HEAD
 }
 
 /* Staff directory */
@@ -201,3 +212,6 @@ footer {
   padding-left: 20px;
   font-size: 15px;
 }
+=======
+}
+>>>>>>> 26059fe63b924e1954e24c6176e5115034cdd6e8
