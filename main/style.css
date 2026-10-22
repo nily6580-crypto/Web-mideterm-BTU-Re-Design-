@@ -1,4 +1,4 @@
-/* BTU Lab website styles */
+
 
 body {
   margin: 0;
@@ -92,7 +92,7 @@ img {
   height: auto;
 }
 
-/* Photos that sit inside the content boxes */
+/* photo boxes */
 
 .photo {
   float: right;
@@ -138,7 +138,7 @@ address {
   margin-bottom: 25px;
 }
 
-/* Footer */
+/* footer */
 
 footer {
   background-color: #32373B;
@@ -213,5 +213,5 @@ footer {
   font-size: 15px;
 }
 =======
-}
+
 >>>>>>> 26059fe63b924e1954e24c6176e5115034cdd6e8
