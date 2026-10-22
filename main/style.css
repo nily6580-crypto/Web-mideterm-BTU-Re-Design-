@@ -148,6 +148,8 @@ footer {
   font-size: 14px;
 }
 
+/* For clearing white space in the lists on desktop */
+
 @media (min-width: 600px) {
   ul li{
     display: block;
