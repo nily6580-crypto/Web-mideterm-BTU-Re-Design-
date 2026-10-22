@@ -87,6 +87,10 @@ a:hover {
   color: #C45100;
 }
 
+ul > li {
+  display:block;
+}
+
 img {
   max-width: 100%;
   height: auto;
